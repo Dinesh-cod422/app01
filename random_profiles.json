@@ -1,0 +1,1602 @@
+[
+  {
+    "name": "Meena",
+    "date_of_birth": "2003-10-05",
+    "personality": "Serious",
+    "strengths": [
+      "Kind",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Lazy"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Deepa",
+    "date_of_birth": "1993-06-01",
+    "personality": "Mysterious",
+    "strengths": [
+      "Calm",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Overthinker"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Surya",
+    "date_of_birth": "1980-04-23",
+    "personality": "Funny",
+    "strengths": [
+      "Reliable",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Moody"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Lakshmi",
+    "date_of_birth": "1982-04-19",
+    "personality": "Funny",
+    "strengths": [
+      "Reliable",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Overthinker"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Sneha",
+    "date_of_birth": "1982-04-06",
+    "personality": "Serious",
+    "strengths": [
+      "Confident",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Stubborn"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Priya",
+    "date_of_birth": "1999-04-03",
+    "personality": "Serious",
+    "strengths": [
+      "Reliable",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Lazy"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Vijay",
+    "date_of_birth": "2001-11-03",
+    "personality": "Energetic",
+    "strengths": [
+      "Creative",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Impatient"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Nithya",
+    "date_of_birth": "1999-01-23",
+    "personality": "Energetic",
+    "strengths": [
+      "Creative",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Lazy"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Kavya",
+    "date_of_birth": "1995-07-19",
+    "personality": "Funny",
+    "strengths": [
+      "Hardworking",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Moody"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "1988-08-09",
+    "personality": "Energetic",
+    "strengths": [
+      "Hardworking",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Stubborn"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Surya",
+    "date_of_birth": "2009-12-12",
+    "personality": "Mysterious",
+    "strengths": [
+      "Calm",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Overthinker"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Karthik",
+    "date_of_birth": "2007-08-18",
+    "personality": "Mysterious",
+    "strengths": [
+      "Reliable",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Overthinker"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "1987-06-28",
+    "personality": "Serious",
+    "strengths": [
+      "Creative",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Lazy"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Anjali",
+    "date_of_birth": "1992-01-24",
+    "personality": "Energetic",
+    "strengths": [
+      "Hardworking",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Impulsive"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Shalini",
+    "date_of_birth": "1998-07-17",
+    "personality": "Serious",
+    "strengths": [
+      "Creative",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Stubborn"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Anjali",
+    "date_of_birth": "2001-07-18",
+    "personality": "Calm",
+    "strengths": [
+      "Reliable",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Forgetful"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Divya",
+    "date_of_birth": "1999-07-07",
+    "personality": "Serious",
+    "strengths": [
+      "Reliable",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Stubborn"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "1983-02-28",
+    "personality": "Mysterious",
+    "strengths": [
+      "Adventurous",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Lazy"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Vikram",
+    "date_of_birth": "1990-09-24",
+    "personality": "Energetic",
+    "strengths": [
+      "Creative",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Overthinker"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Nithya",
+    "date_of_birth": "2010-10-08",
+    "personality": "Calm",
+    "strengths": [
+      "Calm",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Stubborn"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "2006-06-06",
+    "personality": "Energetic",
+    "strengths": [
+      "Adventurous",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Impulsive"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "1987-09-29",
+    "personality": "Funny",
+    "strengths": [
+      "Curious",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Stubborn"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Lakshmi",
+    "date_of_birth": "1999-01-27",
+    "personality": "Funny",
+    "strengths": [
+      "Confident",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Shy"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Meena",
+    "date_of_birth": "1993-07-02",
+    "personality": "Mysterious",
+    "strengths": [
+      "Calm",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Impatient"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Vijay",
+    "date_of_birth": "1995-02-04",
+    "personality": "Serious",
+    "strengths": [
+      "Kind",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Lazy"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Meena",
+    "date_of_birth": "1999-05-06",
+    "personality": "Funny",
+    "strengths": [
+      "Calm",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Moody"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Sneha",
+    "date_of_birth": "1999-11-30",
+    "personality": "Calm",
+    "strengths": [
+      "Creative",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Impatient"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Arun",
+    "date_of_birth": "1999-07-13",
+    "personality": "Mysterious",
+    "strengths": [
+      "Creative",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Impatient"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Anjali",
+    "date_of_birth": "1989-12-25",
+    "personality": "Serious",
+    "strengths": [
+      "Creative",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Moody"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Nithya",
+    "date_of_birth": "2005-03-20",
+    "personality": "Funny",
+    "strengths": [
+      "Confident",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Overthinker"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "1999-01-13",
+    "personality": "Energetic",
+    "strengths": [
+      "Hardworking",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Overthinker"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Deepa",
+    "date_of_birth": "2003-11-13",
+    "personality": "Calm",
+    "strengths": [
+      "Confident",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Impulsive"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Karthik",
+    "date_of_birth": "1985-10-27",
+    "personality": "Calm",
+    "strengths": [
+      "Creative",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Overthinker"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Surya",
+    "date_of_birth": "1987-02-05",
+    "personality": "Calm",
+    "strengths": [
+      "Confident",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Forgetful"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Sneha",
+    "date_of_birth": "2010-03-25",
+    "personality": "Mysterious",
+    "strengths": [
+      "Hardworking",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Lazy"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "1995-11-02",
+    "personality": "Energetic",
+    "strengths": [
+      "Hardworking",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Lazy"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Meena",
+    "date_of_birth": "1985-09-06",
+    "personality": "Serious",
+    "strengths": [
+      "Confident",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Lazy"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Priya",
+    "date_of_birth": "2005-12-24",
+    "personality": "Energetic",
+    "strengths": [
+      "Calm",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Shy"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Deepa",
+    "date_of_birth": "1983-03-01",
+    "personality": "Calm",
+    "strengths": [
+      "Calm",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Shy"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Rahul",
+    "date_of_birth": "1999-05-29",
+    "personality": "Energetic",
+    "strengths": [
+      "Kind",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Impatient"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Priya",
+    "date_of_birth": "2009-06-08",
+    "personality": "Mysterious",
+    "strengths": [
+      "Reliable",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Moody"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Vikram",
+    "date_of_birth": "1980-04-15",
+    "personality": "Mysterious",
+    "strengths": [
+      "Curious",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Moody"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Sneha",
+    "date_of_birth": "1992-08-02",
+    "personality": "Funny",
+    "strengths": [
+      "Creative",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Forgetful"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "1992-06-27",
+    "personality": "Serious",
+    "strengths": [
+      "Calm",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Impatient"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Nithya",
+    "date_of_birth": "1996-10-20",
+    "personality": "Calm",
+    "strengths": [
+      "Reliable",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Stubborn"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Vijay",
+    "date_of_birth": "1989-06-21",
+    "personality": "Mysterious",
+    "strengths": [
+      "Hardworking",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Impatient"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Lakshmi",
+    "date_of_birth": "2009-03-17",
+    "personality": "Calm",
+    "strengths": [
+      "Confident",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Moody"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Arun",
+    "date_of_birth": "2008-06-05",
+    "personality": "Funny",
+    "strengths": [
+      "Kind",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Impatient"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Rahul",
+    "date_of_birth": "2008-11-28",
+    "personality": "Energetic",
+    "strengths": [
+      "Hardworking",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Lazy"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Arun",
+    "date_of_birth": "2007-10-16",
+    "personality": "Serious",
+    "strengths": [
+      "Adventurous",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Shy"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "1985-12-24",
+    "personality": "Energetic",
+    "strengths": [
+      "Curious",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Shy"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Vijay",
+    "date_of_birth": "1990-02-21",
+    "personality": "Funny",
+    "strengths": [
+      "Curious",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Moody"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Arun",
+    "date_of_birth": "1981-04-17",
+    "personality": "Funny",
+    "strengths": [
+      "Hardworking",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Stubborn"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Deepa",
+    "date_of_birth": "2010-12-19",
+    "personality": "Serious",
+    "strengths": [
+      "Curious",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Forgetful"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Vijay",
+    "date_of_birth": "2006-12-16",
+    "personality": "Serious",
+    "strengths": [
+      "Creative",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Shy"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Manoj",
+    "date_of_birth": "1994-11-06",
+    "personality": "Mysterious",
+    "strengths": [
+      "Creative",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Stubborn"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Divya",
+    "date_of_birth": "1980-12-05",
+    "personality": "Mysterious",
+    "strengths": [
+      "Hardworking",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Moody"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Anjali",
+    "date_of_birth": "2009-09-19",
+    "personality": "Funny",
+    "strengths": [
+      "Creative",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Stubborn"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Sneha",
+    "date_of_birth": "1999-04-30",
+    "personality": "Funny",
+    "strengths": [
+      "Kind",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Stubborn"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "1999-06-21",
+    "personality": "Serious",
+    "strengths": [
+      "Confident",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Lazy"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Rahul",
+    "date_of_birth": "1985-07-16",
+    "personality": "Energetic",
+    "strengths": [
+      "Hardworking",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Overthinker"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Vikram",
+    "date_of_birth": "1981-02-01",
+    "personality": "Funny",
+    "strengths": [
+      "Creative",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Forgetful"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Meena",
+    "date_of_birth": "1998-09-28",
+    "personality": "Funny",
+    "strengths": [
+      "Curious",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Stubborn"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Anjali",
+    "date_of_birth": "1985-10-03",
+    "personality": "Calm",
+    "strengths": [
+      "Calm",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Stubborn"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Sneha",
+    "date_of_birth": "1998-08-21",
+    "personality": "Energetic",
+    "strengths": [
+      "Adventurous",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Stubborn"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Karthik",
+    "date_of_birth": "1983-02-08",
+    "personality": "Serious",
+    "strengths": [
+      "Reliable",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Lazy"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Nithya",
+    "date_of_birth": "1981-04-28",
+    "personality": "Energetic",
+    "strengths": [
+      "Curious",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Impatient"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Vikram",
+    "date_of_birth": "1981-03-09",
+    "personality": "Funny",
+    "strengths": [
+      "Reliable",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Impulsive"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Meena",
+    "date_of_birth": "1984-11-03",
+    "personality": "Funny",
+    "strengths": [
+      "Hardworking",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Stubborn"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "1998-10-11",
+    "personality": "Energetic",
+    "strengths": [
+      "Hardworking",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Moody"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Karthik",
+    "date_of_birth": "1997-08-19",
+    "personality": "Energetic",
+    "strengths": [
+      "Creative",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Forgetful"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Surya",
+    "date_of_birth": "2008-11-25",
+    "personality": "Energetic",
+    "strengths": [
+      "Reliable",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Moody"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Meena",
+    "date_of_birth": "2004-03-23",
+    "personality": "Serious",
+    "strengths": [
+      "Confident",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Shy"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Arun",
+    "date_of_birth": "2009-03-27",
+    "personality": "Serious",
+    "strengths": [
+      "Reliable",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Moody"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Manoj",
+    "date_of_birth": "1993-07-30",
+    "personality": "Energetic",
+    "strengths": [
+      "Adventurous",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Moody"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Sneha",
+    "date_of_birth": "1998-02-17",
+    "personality": "Calm",
+    "strengths": [
+      "Adventurous",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Lazy",
+      "Shy"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Varun",
+    "date_of_birth": "1987-06-12",
+    "personality": "Mysterious",
+    "strengths": [
+      "Confident",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Forgetful"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Rocky"
+  },
+  {
+    "name": "Manoj",
+    "date_of_birth": "1986-05-20",
+    "personality": "Mysterious",
+    "strengths": [
+      "Hardworking",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Stubborn"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Varun",
+    "date_of_birth": "1989-08-14",
+    "personality": "Serious",
+    "strengths": [
+      "Reliable",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Impulsive"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Arun",
+    "date_of_birth": "1987-05-21",
+    "personality": "Calm",
+    "strengths": [
+      "Adventurous",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Lazy"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "2000-08-04",
+    "personality": "Funny",
+    "strengths": [
+      "Kind",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Shy"
+    ],
+    "hobby": "Gaming",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Nithya",
+    "date_of_birth": "1994-08-01",
+    "personality": "Serious",
+    "strengths": [
+      "Creative",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Moody"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Karthik",
+    "date_of_birth": "2005-12-21",
+    "personality": "Energetic",
+    "strengths": [
+      "Kind",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Impatient"
+    ],
+    "hobby": "Singing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Lakshmi",
+    "date_of_birth": "2010-01-17",
+    "personality": "Calm",
+    "strengths": [
+      "Reliable",
+      "Confident"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Moody"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "1982-10-23",
+    "personality": "Calm",
+    "strengths": [
+      "Adventurous",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Stubborn"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "2002-03-08",
+    "personality": "Funny",
+    "strengths": [
+      "Hardworking",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Lazy"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Surya",
+    "date_of_birth": "1984-06-21",
+    "personality": "Calm",
+    "strengths": [
+      "Confident",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Impatient",
+      "Lazy"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Divya",
+    "date_of_birth": "2000-06-17",
+    "personality": "Calm",
+    "strengths": [
+      "Hardworking",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Impulsive"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Meena",
+    "date_of_birth": "2010-01-28",
+    "personality": "Calm",
+    "strengths": [
+      "Reliable",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Forgetful"
+    ],
+    "hobby": "Cooking",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Vikram",
+    "date_of_birth": "1996-05-06",
+    "personality": "Funny",
+    "strengths": [
+      "Adventurous",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Overthinker"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat ice cream at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Lakshmi",
+    "date_of_birth": "2008-12-31",
+    "personality": "Mysterious",
+    "strengths": [
+      "Hardworking",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Impulsive",
+      "Impulsive"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Momo"
+  },
+  {
+    "name": "Nithya",
+    "date_of_birth": "2006-02-05",
+    "personality": "Mysterious",
+    "strengths": [
+      "Kind",
+      "Adventurous"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Forgetful"
+    ],
+    "hobby": "Photography",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Manoj",
+    "date_of_birth": "1982-04-20",
+    "personality": "Energetic",
+    "strengths": [
+      "Adventurous",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Moody"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Ninja"
+  },
+  {
+    "name": "Rahul",
+    "date_of_birth": "2010-05-18",
+    "personality": "Calm",
+    "strengths": [
+      "Adventurous",
+      "Hardworking"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Overthinker"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat chocolate at midnight.",
+    "nickname": "Buddy"
+  },
+  {
+    "name": "Lakshmi",
+    "date_of_birth": "1983-01-25",
+    "personality": "Serious",
+    "strengths": [
+      "Adventurous",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Moody",
+      "Lazy"
+    ],
+    "hobby": "Traveling",
+    "fun_fact": "Loves to eat mangoes at midnight.",
+    "nickname": "Zippy"
+  },
+  {
+    "name": "Manoj",
+    "date_of_birth": "1980-02-25",
+    "personality": "Energetic",
+    "strengths": [
+      "Confident",
+      "Reliable"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Impatient"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Choco"
+  },
+  {
+    "name": "Ravi",
+    "date_of_birth": "1993-09-12",
+    "personality": "Mysterious",
+    "strengths": [
+      "Reliable",
+      "Creative"
+    ],
+    "weaknesses": [
+      "Shy",
+      "Forgetful"
+    ],
+    "hobby": "Drawing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Star"
+  },
+  {
+    "name": "Surya",
+    "date_of_birth": "2007-11-12",
+    "personality": "Funny",
+    "strengths": [
+      "Reliable",
+      "Curious"
+    ],
+    "weaknesses": [
+      "Stubborn",
+      "Overthinker"
+    ],
+    "hobby": "Dancing",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Divya",
+    "date_of_birth": "1988-05-02",
+    "personality": "Mysterious",
+    "strengths": [
+      "Confident",
+      "Calm"
+    ],
+    "weaknesses": [
+      "Forgetful",
+      "Impulsive"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat pizza at midnight.",
+    "nickname": "Sunny"
+  },
+  {
+    "name": "Suresh",
+    "date_of_birth": "2009-01-10",
+    "personality": "Calm",
+    "strengths": [
+      "Confident",
+      "Kind"
+    ],
+    "weaknesses": [
+      "Overthinker",
+      "Moody"
+    ],
+    "hobby": "Reading",
+    "fun_fact": "Loves to eat noodles at midnight.",
+    "nickname": "Momo"
+  }
+]

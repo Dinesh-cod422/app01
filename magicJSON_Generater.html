@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Generate Indian Profiles</title>
+</head>
+<body>
+  <h2>Generate 10,000 Indian Profiles (Download JSON)</h2>
+  <button onclick="generateProfiles()">Generate & Download</button>
+
+  <script>
+    const firstNames = [
+      "Aarav", "Vivaan", "Aditya", "Vihaan", "Arjun", "Sai", "Ananya", "Diya", "Ishaan", "Krishna",
+      "Rohan", "Saanvi", "Aarya", "Kavya", "Tanvi", "Manish", "Ramesh", "Suresh", "Lakshmi", "Priya",
+      "Karthik", "Sneha", "Rahul", "Divya", "Meena", "Anjali", "Vijay", "Deepa", "Suresh", "Nithya"
+    ];
+
+    const lastNames = [
+      "Sharma", "Verma", "Patel", "Nair", "Reddy", "Gupta", "Singh", "Kumar", "Das", "Iyer",
+      "Menon", "Chopra", "Bose", "Naidu", "Mishra", "Yadav", "Rana", "Gowda", "Bhat", "Shetty"
+    ];
+
+    const strengths = ["Creative","Kind","Hardworking","Adventurous","Curious","Calm","Confident","Reliable"];
+    const weaknesses = ["Impatient","Forgetful","Overthinker","Lazy","Moody","Shy","Impulsive","Stubborn"];
+    const hobbies = ["Reading","Singing","Traveling","Gaming","Cooking","Drawing","Dancing","Photography"];
+    const nicknames = ["Rocky","Sunny","Momo","Choco","Star","Buddy","Zippy","Ninja"];
+    const personalities = ["Serious","Funny","Calm","Energetic","Mysterious"];
+
+    function randomDate(startYear = 1980, endYear = 2010) {
+      const start = new Date(startYear, 0, 1);
+      const end = new Date(endYear, 11, 31);
+      const randomTime = start.getTime() + Math.random() * (end.getTime() - start.getTime());
+      const date = new Date(randomTime);
+      return date.toISOString().split("T")[0];
+    }
+
+    function getRandomItems(arr, count) {
+      return [...arr].sort(() => 0.5 - Math.random()).slice(0, count);
+    }
+
+    function generateProfiles() {
+      const profiles = [];
+      for (let i = 0; i < 10000; i++) {
+        const profile = {
+          name: `${firstNames[Math.floor(Math.random() * firstNames.length)]} ${lastNames[Math.floor(Math.random() * lastNames.length)]}`,
+          date_of_birth: randomDate(),
+          personality: personalities[Math.floor(Math.random() * personalities.length)],
+          strengths: getRandomItems(strengths, 2),
+          weaknesses: getRandomItems(weaknesses, 2),
+          hobby: hobbies[Math.floor(Math.random() * hobbies.length)],
+          fun_fact: `Loves to eat ${["chocolate","pizza","mangoes","ice cream","noodles"][Math.floor(Math.random() * 5)]} at midnight.`,
+          nickname: nicknames[Math.floor(Math.random() * nicknames.length)]
+        };
+        profiles.push(profile);
+      }
+
+      // Create downloadable JSON file
+      const blob = new Blob([JSON.stringify(profiles, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "indian_random_profiles_10000.json";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>

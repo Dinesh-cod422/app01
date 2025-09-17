@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Profiles Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .name {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .nickname {
+      color: #888;
+      font-size: 14px;
+    }
+    .tag {
+      display: inline-block;
+      background: #e1ecf4;
+      color: #0366d6;
+      font-size: 12px;
+      margin: 2px;
+      padding: 3px 6px;
+      border-radius: 6px;
+    }
+    .fun-fact {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>Random Profiles</h1>
+  <div class="container" id="profileContainer"></div>
+
+  <script>
+    async function loadProfiles() {
+      try {
+        const response = await fetch("./indian_random_profiles_10000.json"); // Your generated file
+        const profiles = await response.json();
+
+        const container = document.getElementById("profileContainer");
+        profiles.forEach(profile => {
+          const card = document.createElement("div");
+          card.className = "card";
+
+          card.innerHTML = `
+            <div class="name">${profile.name}</div>
+            <div class="nickname">Nickname: ${profile.nickname}</div>
+            <div><strong>DOB:</strong> ${profile.date_of_birth}</div>
+            <div><strong>Personality:</strong> ${profile.personality}</div>
+            <div>
+              <strong>Strengths:</strong> 
+              ${profile.strengths.map(s => `<span class="tag">${s}</span>`).join(" ")}
+            </div>
+            <div>
+              <strong>Weaknesses:</strong> 
+              ${profile.weaknesses.map(w => `<span class="tag">${w}</span>`).join(" ")}
+            </div>
+            <div><strong>Hobby:</strong> ${profile.hobby}</div>
+            <div class="fun-fact">${profile.fun_fact}</div>
+          `;
+
+          container.appendChild(card);
+        });
+
+      } catch (error) {
+        console.error("Error loading profiles:", error);
+      }
+    }
+
+    loadProfiles();
+  </script>
+</body>
+</html>
