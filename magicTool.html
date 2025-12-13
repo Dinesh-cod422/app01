@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Personality Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
       background: #f5f5f5;
@@ -13,77 +20,168 @@
       flex-direction: column;
       align-items: center;
     }
+
     h1 {
       text-align: center;
+      margin-bottom: 20px;
     }
+
     .form-box {
       background: white;
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       margin-bottom: 20px;
-      width: 300px;
+      width: 100%;
+      max-width: 320px;
       text-align: center;
     }
+
     input {
-      width: 90%;
+      width: 100%;
       margin: 8px 0;
-      padding: 8px;
+      padding: 10px;
       border-radius: 6px;
       border: 1px solid #ccc;
+      font-size: 14px;
     }
+
     button {
       margin-top: 10px;
-      padding: 8px 15px;
+      padding: 10px 16px;
       background: #4CAF50;
       color: white;
       border: none;
       border-radius: 8px;
       cursor: pointer;
+      font-size: 15px;
+      width: 100%;
     }
+
     button:hover {
       background: #45a049;
     }
+
+    #result {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
     .result-card {
       background: white;
-      padding: 15px;
+      padding: 16px;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      max-width: 400px;
+      max-width: 420px;
+      width: 100%;
       text-align: left;
     }
+
     .tag {
       display: inline-block;
       background: #e1ecf4;
       color: #0366d6;
       font-size: 12px;
       margin: 2px;
-      padding: 3px 6px;
+      padding: 4px 8px;
       border-radius: 6px;
+    }
+
+    .store-buttons {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .store-btn {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+    }
+
+    .android {
+      background: #34A853;
+    }
+
+    .ios {
+      background: #000;
     }
   </style>
 </head>
+
 <body>
   <h1>🔮 Personality Generator</h1>
 
   <div class="form-box">
-    <input type="text" id="nameInput" placeholder="Enter Name">
-    <input type="date" id="dobInput">
+    <input type="text" id="nameInput" placeholder="Enter Name" />
+    <input type="date" id="dobInput" />
     <button onclick="generatePersonality()">Generate</button>
   </div>
 
   <div id="result"></div>
 
   <script>
-    const strengths = ["Creative","Kind","Hardworking","Adventurous","Curious","Calm","Confident","Reliable"];
-    const weaknesses = ["Impatient","Forgetful","Overthinker","Lazy","Moody","Shy","Impulsive","Stubborn"];
-    const hobbies = ["Reading","Singing","Traveling","Gaming","Cooking","Drawing","Dancing","Photography"];
-    const nicknames = ["Rocky","Sunny","Momo","Choco","Star","Buddy","Zippy","Ninja"];
-    const personalities = ["Serious","Funny","Calm","Energetic","Mysterious"];
+    /* =====================
+       STORE LINKS
+    ===================== */
+    const ANDROID_STORE_URL =
+      "https://play.google.com/store/apps/details?id=com.travelfikaiosapp";
+
+    const IOS_STORE_URL =
+      "https://apps.apple.com/in/app/travelfika-hotels-flights/id6451380535";
+
+    /* =====================
+       PERSONALITY DATA
+    ===================== */
+    const strengths = ["Creative", "Kind", "Hardworking", "Adventurous", "Curious", "Calm", "Confident", "Reliable"];
+    const weaknesses = ["Impatient", "Forgetful", "Overthinker", "Lazy", "Moody", "Shy", "Impulsive", "Stubborn"];
+    const hobbies = ["Reading", "Singing", "Traveling", "Gaming", "Cooking", "Drawing", "Dancing", "Photography"];
+    const nicknames = ["Rocky", "Sunny", "Momo", "Choco", "Star", "Buddy", "Zippy", "Ninja"];
+    const personalities = ["Serious", "Funny", "Calm", "Energetic", "Mysterious"];
 
     function getRandom(arr) {
       return arr[Math.floor(Math.random() * arr.length)];
     }
+
+    function getPlatformButtons() {
+      const ua = navigator.userAgent.toLowerCase();
+      console.log(ua, 'ua');
+      if (ua.includes("android")) {
+        return `
+          <a class="store-btn android" href="${ANDROID_STORE_URL}" target="_blank">
+            Get on Play Store
+          </a>
+        `;
+      }
+
+      if (ua.includes("iphone") || ua.includes("ipad") || ua.includes("ipod")) {
+        return `
+          <a class="store-btn ios" href="${IOS_STORE_URL}" target="_blank">
+            Download on App Store
+          </a>
+        `;
+      }
+
+      // Desktop fallback → show both
+      return `
+        <a class="store-btn android" href="${ANDROID_STORE_URL}" target="_blank">
+          Play Store
+        </a>
+        <a class="store-btn ios" href="${IOS_STORE_URL}" target="_blank">
+          App Store
+        </a>
+      `;
+    }
+
+
+    getPlatformButtons()
 
     function generatePersonality() {
       const name = document.getElementById("nameInput").value.trim();
@@ -110,18 +208,31 @@
 
     function displayResult(profile) {
       const container = document.getElementById("result");
+
       container.innerHTML = `
         <div class="result-card">
           <h2>${profile.name} (${profile.nickname})</h2>
           <p><strong>Date of Birth:</strong> ${profile.date_of_birth}</p>
           <p><strong>Personality:</strong> ${profile.personality}</p>
-          <p><strong>Strengths:</strong> ${profile.strengths.map(s => `<span class="tag">${s}</span>`).join(" ")}</p>
-          <p><strong>Weaknesses:</strong> ${profile.weaknesses.map(w => `<span class="tag">${w}</span>`).join(" ")}</p>
+
+          <p><strong>Strengths:</strong><br>
+            ${profile.strengths.map(s => `<span class="tag">${s}</span>`).join("")}
+          </p>
+
+          <p><strong>Weaknesses:</strong><br>
+            ${profile.weaknesses.map(w => `<span class="tag">${w}</span>`).join("")}
+          </p>
+
           <p><strong>Hobby:</strong> ${profile.hobby}</p>
           <p><em>${profile.fun_fact}</em></p>
+
+          <div class="store-buttons">
+            ${getPlatformButtons()}
+          </div>
         </div>
       `;
     }
   </script>
 </body>
+
 </html>
